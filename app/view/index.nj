@@ -18,7 +18,7 @@
 
     $stack.fetch('/login')
             .then(function (res) {
-                $output.innerHTML = JSON.stringify(res);
+                $output.innerHTML = sessionStorage.getItem('Authorization');
             });
 </script>
 </body>
