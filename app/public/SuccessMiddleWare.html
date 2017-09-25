@@ -1,0 +1,18 @@
+<link rel="import" href="./MiddleWare.html">
+<script>
+    class SuccessMiddleWare extends MiddleWare {
+        constructor() {
+            super();
+        }
+
+        transform_request(target, req) {
+            return req;
+        }
+
+        transform_response(res) {
+            return res;
+        }
+    }
+
+    window.customElements.define('middleware-success', SuccessMiddleWare);
+</script>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="import" href="/public/JwtMiddleWare.html">
+</head>
+<body>
+<middleware-jwt id="js-jwt"></middleware-jwt>
+<div id="js-output"></div>
+<script>
+    var $jwt = document.querySelector('#js-jwt');
+    var $output = document.querySelector('#js-output');
+    $jwt.set_next(window);
+    $jwt.fetch('/login')
+            .then(function (res) {
+                $output.innerHTML = JSON.stringify(res);
+            });
+</script>
+</body>
+</html>
