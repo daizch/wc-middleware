@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="import" href="/public/JwtMiddleWare.html">
+    <link rel="import" href="/public/JWTMiddleware.html">
 </head>
 <body>
 <middleware-jwt id="js-jwt"></middleware-jwt>

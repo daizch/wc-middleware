@@ -2,8 +2,8 @@
 <html>
 <head>
     <link rel="import" href="/public/MiddleStack.html">
-    <link rel="import" href="/public/JwtMiddleWare.html">
-    <link rel="import" href="/public/SuccessMiddleWare.html">
+    <link rel="import" href="/public/JWTMiddleware.html">
+    <link rel="import" href="/public/SuccessMiddleware.html">
 </head>
 <body>
 <middleware-stack id="js-stack">

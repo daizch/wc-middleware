@@ -1,6 +1,6 @@
-<link rel="import" href="./MiddleWare.html">
+<link rel="import" href="./Middleware.html">
 <script>
-    class JwtMiddleWare extends MiddleWare {
+    class JWTMiddleware extends Middleware {
         constructor() {
             super();
         }
@@ -28,5 +28,5 @@
         }
     }
 
-    window.customElements.define('middleware-jwt', JwtMiddleWare);
+    window.customElements.define('middleware-jwt', JWTMiddleware);
 </script>
